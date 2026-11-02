@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw_data
+    database: DMART_ANALYSIS
+    schema: RAW_DATA
+    tables:
+      - name: calendar
+      - name: products
+      - name: sales_transactions
+      - name: store_info
